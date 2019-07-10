@@ -1,0 +1,184 @@
+@import _color.sass
+
+// Reset Styles ====================================================================================
+h1,h2,h3,h4,h5
+  padding: 0
+  margin: 0
+
+.bg-light
+  // -удаление фона у navbar
+  background: none!important
+// Basic Styles ====================================================================================
+h1
+  color: $title
+  color: #3c3768
+  font-family: Poppins
+  font-size: 50px
+  font-weight: 900
+h2
+  color: $title
+h3
+  color: $title
+  font-family: "Poppins"
+  font-size: 32px
+  font-weight: 900
+  line-height: 42px
+p
+  color: $deftext
+  font-family: "Inter UI" sans-serif
+  font-size: 18px
+  font-weight: 500
+  line-height: 40px
+section
+  height: 800px
+  margin-top: 100px
+  position: relative
+.left
+  float: left
+  left: 0
+.right
+  float: right
+  right: 0
+.center
+  margin: 0 auto
+.t-center
+  text-align: center
+.d-flex
+  display: flex
+.j-center
+  justify-content: center
+.ja-center
+  align-items: center
+// HEADER ====================================================================================
+#header_bg
+  &-bg
+    position: absolute
+    z-index: -1
+    width: 70%
+    top: 0
+    right: 0
+#header_text_block
+  margin-left: 110px
+  margin-top: 20vh
+  width: 404px
+
+// #header_text_block (buttton && input) =====================
+#button-addon2
+  padding-left: 25px
+  padding-right: 25px
+  border-radius: 3px
+  border: none!important
+  box-shadow: 0 18px 35px rgba(250, 120, 117, 0.42)
+  border-radius: 5px
+  background-color: $red
+  background-image: linear-gradient(45deg, rgba(60, 55, 104, 0.29) 0%, rgba(250, 120, 117, 0.29) 100%)
+  margin-left: 20px
+
+  color: #ffffff
+  font-family: Poppins
+  font-size: 18px
+  font-weight: 400
+.form-control
+  box-shadow: 0 18px 35px rgba(250, 120, 117, 0.72)
+  border: none!important
+  border-radius: 0
+  height: 55px
+  box-shadow: 0 18px 35px rgba(250, 120, 117, 0.15)
+  border-radius: 5px
+  background-color: #ffffff
+// #header_text_block (buttton && input) // =====================
+
+// #header_text_block (buttton && input) =====================
+#section1_img
+  position: absolute
+  top: 0
+  left: 0
+  width: 55%
+#section2_img
+  position: absolute
+  top: 0
+  right: 0
+  width: 47%
+.rectangle_left
+  right: 0
+  margin-top: 40px
+  margin-right: 107px
+  padding: 45px
+  background-color: #fff
+  box-shadow: 0 31px 38px rgba(250, 120, 117, 0.1)
+  border-radius: 5px
+  position: absolute
+  max-width: 460px
+.rectangle_right
+  left: 0
+  margin-top: 40px
+  margin-left: 127px
+  padding: 45px
+  background-color: #fff
+  box-shadow: 0 31px 38px rgba(250, 120, 117, 0.1)
+  border-radius: 5px
+  position: absolute
+  max-width: 460px
+h3
+  text-align: center
+  margin-bottom: 20px
+a
+  color: $red
+  font-family: Poppins
+  font-size: 20px
+  font-weight: 400
+  line-height: 48.07px
+  text-transform: uppercase
+  // #header_text_block (buttton && input) // =====================
+#section
+  &-s1
+    //стили для section 1
+  &-s2
+    margin: 0
+    margin-top: -130px
+    //стили для section 2
+  &-s3
+    margin-top: -130px
+#section-contact
+  margin: 0 auto
+  width: 91%
+  height: 250px
+  background: url(../img/contactbg.png)
+  background-repeat: no-repeat
+  background-size: cover
+
+
+.modal-overlay
+  background: rgba(33, 33, 61, .5)
+  position: fixed
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  opacity: 0
+  visibility: hidden
+.modal-wrapper
+	position: fixed
+	top: 0
+	left: 0
+	bottom: 0
+	right: 0
+	overflow: hidden
+	pointer-events: none
+.modal
+	background: #fff
+	color: #666871
+	text-align: center
+	width: 400px
+	max-width: 90%
+	height: 250px
+	top: 0
+	left: 0
+	bottom: 0
+	right: 0
+	position: absolute
+	margin: auto
+	padding: 40px
+	pointer-events: auto
+	font-weight: bold
+	visibility: hidden
